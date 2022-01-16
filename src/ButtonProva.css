@@ -1,0 +1,19 @@
+.app-btn {
+    height: 55px;
+    line-height: 55px!important;
+    text-align: center!important;
+    padding: 0!important;
+    min-width: 187px;
+    border-radius: 50px!important;
+    font-size: 14px;
+    color: #FFFFFF;
+    font-weight: 600!important;
+    text-transform: capitalize;
+    background-color: white!important;
+    color: #163049;
+    box-shadow: 0 9px 15px rgba(0, 0, 0, 0.15) !important;
+}
+
+p {
+    margin-bottom: 0!important;
+}

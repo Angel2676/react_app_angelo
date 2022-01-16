@@ -1,0 +1,42 @@
+li a{
+    color: black!important;
+    font-weight: 600!important;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2892FE!important;
+}
+
+li{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.active {
+    color: #0091fe;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+li.active a::before {
+    position: absolute;
+    content: '';
+    width: 6px;
+    height: 6px;
+    background: #0091fe;
+    border-radius: 5px;
+    top: 100%;
+    left: 0;
+}
+
+li.active a::after{
+    position: absolute;
+    content: '';
+    width: 25px;
+    height: 5px;
+    background: #0091fe;
+    border-radius: 10px;
+    top: 100%;
+    left: 10px;
+}
